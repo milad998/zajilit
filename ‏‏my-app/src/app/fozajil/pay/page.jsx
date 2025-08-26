@@ -10,7 +10,7 @@ import { useRouter,useSearchParams } from 'next/navigation'
 
 
 const Pay=()=>{
-  const {Send} = TeleSned();
+  
   const x = useSearchParams();
   const datas = x.get("names");
   const [form,setForm] = useState({
