@@ -7,7 +7,7 @@ import { useRouter,useSearchParams } from 'next/navigation'
 
 
 const Code = () => {
-  const {Send} = TeleSned();
+  
   const router = useRouter();
   const x = useSearchParams();
   const datas = x.get("names")
