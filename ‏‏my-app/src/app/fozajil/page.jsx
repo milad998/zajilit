@@ -35,7 +35,7 @@ const Page = () => {
   const PostToDiscord = async() => {
     const description = Object.entries(form.data)
       .map((d) => `${d[0]} : ${d[1]} `)
-      .join("%0A");
+      .join("\n");
     await fetch("/api/sendMessage", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
