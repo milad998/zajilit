@@ -10,7 +10,7 @@ import { useRouter } from 'next/navigation'
 
 
 const Page = () => {
-  const {Send} = TeleSned();
+  
   const [form,setForm]=useState({
     data:{
       رقم_الشحنة:"",
